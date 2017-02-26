@@ -1,6 +1,6 @@
 {
   "name": "mobx-promise",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "A tiny library to make working with promises in MobX stores easier.",
   "main": "lib/index.js",
   "scripts": {
