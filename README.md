@@ -30,7 +30,7 @@ class FoodStore {
 Now when `getPizzas()` is called, `mobx-promise` will update the `promiseState` property of `pizzas` with promise's lifecycle events — _pending_, _fulfilled_ or _rejected_, and the `data` property with the result of promise execution.
 
 ## Exercising control
-If you'd like more control on how the promise results are assigned, you can use the `bindPromise` function instead of the decorator. 
+If you'd like more control on how the promise results are assigned, or if you wish to avoid using decorators, you can use the `bindPromise` function instead of the `@bindPromiseTo` decorator. 
 
 ```js
 import { bindPromise } from 'mobx-promise'
