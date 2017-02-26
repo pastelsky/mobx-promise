@@ -51,11 +51,11 @@ This works similar to `bindPromiseTo`, but allows you more freedom to do any of 
   const pizzaPromise = fetch('pizza-store.com/api/get').then(r => r.json())
   
   bindPromise(pizzaPromise)
-    .to(this.pizzas, (promiserResult) => promiseResult.data.pizzas)                
+    .to(this.pizzas, (promiseResult) => promiseResult.data.pizzas)                
 }
 ```
 
-### Using the previous sate
+### Using the previous state
 ```js
 @action getMorePizzas() {
   const pizzaPromise = fetch('pizza-store.com/api/get').then(r => r.json())
