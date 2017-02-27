@@ -1,4 +1,6 @@
 # mobx-promise
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/pastelsky/mobx-promise.svg)](https://greenkeeper.io/)
 [![npm (scoped)](https://img.shields.io/npm/v/mobx-promise.svg)](https://www.npmjs.com/package/mobx-promise)
 [![npm](https://img.shields.io/npm/l/mobx-promise.svg)](https://www.npmjs.com/package/mobx-promise)
 
